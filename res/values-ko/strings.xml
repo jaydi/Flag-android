@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">달샵</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_reward">리워드</string>
+    <string name="action_map">지도</string>
+    <string name="menu_my_profile">나의 정보</string>
+    <string name="menu_my_likes">나의 좋아요</string>
+    <string name="menu_my_messages">알림</string>
+    <string name="menu_invite_friends">친구초대</string>
+    <string name="menu_settings">설정</string>
+    <string name="menu_help">달샵에게 물어보자</string>
+    <string name="menu_dalstore">달스토어</string>
+    <string name="menu_history">적립내역</string>
+    <string name="menu_my_dal">나의 달</string>
+
+    <!-- Activity Title -->
+    <string name="title_activity_loading">@string/app_name</string>
+    <string name="title_activity_main"></string>
+    <string name="title_activity_login">로그인</string>
+    <string name="title_activity_join">회원가입</string>
+    <string name="title_activity_edit_profile">프로필 입력</string>
+    <string name="title_activity_phone_input">번호 입력</string>
+    <string name="title_activity_verification_input">인증번호 입력</string>
+    <string name="title_activity_simple_text"></string>
+    <string name="title_activity_map">지도</string>
+    <string name="title_activity_map_reward">달이 쏟아지는 매장들</string>
+    <string name="title_activity_flag_list">리스트</string>
+    <string name="title_activity_shop"></string>
+    <string name="title_activity_shops"></string>
+    <string name="title_activity_items"></string>
+    <string name="title_activity_items_reward">상품스캔 리워드</string>
+    <string name="title_activity_item_desc"></string>
+    <string name="title_activity_my_page">나의 정보</string>
+    <string name="title_activity_reward">달스토어</string>
+    <string name="title_activity_reward_history">리워드내역</string>
+    <string name="title_activity_settings">설정</string>
+    <string name="title_activity_version">버전정보</string>
+    <string name="title_activity_notice">공지사항</string>
+    <string name="title_activity_popup">알림</string>
+    <string name="title_activity_image">사진</string>
+
+    <!-- Common -->
+    <string name="sex">성별</string>
+    <string name="age">나이</string>
+    <string name="job">직업</string>
+    <string name="birth_year">생년</string>
+    <string name="action_ask">Ask</string>
+    <string name="ask_dalshop">달샵에게 물어보자</string>
+    <string name="dal_shop">DAL SHOP</string>
+    <string name="empty"></string>
+    <string name="yes">좋아요</string>
+    <string name="no">싫어요</string>
+    <string name="next">다음으로 >></string>
+    <string name="confirm">확인</string>
+    <string name="send">보내기</string>
+    <string name="save">저장</string>
+    <string name="cancel">취소</string>
+    <string name="close">닫기</string>
+    <string name="buy">구매</string>
+    <string name="sale">SALE</string>
+    <string name="like_it">좋아요</string>
+    <string name="rewarded">적립완료</string>
+    <string name="rewardedFail">적 립 실 패</string>
+    <string name="please_wait">잠시만 기다려주세요..</string>
+    <string name="where_is_it">어디있나요</string>
+    <string name="feedback_hint">무엇이든 편하게 물어보세요!</string>
+    <string name="redeem_feedback">신청하기</string>
+    <string name="redeem_feedback_hint">모은 달과 교환하고 싶은 것을 말해주세요!</string>
+    <string name="network_disconnected">Network Disconnected</string>
+    <string name="bluetooth_disconnected">Bluetooth Disconnected</string>
+    <string name="bluetooth_le_not_available">Bluetooth LE not available</string>
+
+    <!-- Starting -->
+    <string name="sample_email">Email</string>
+    <string name="sample_pw">Password</string>
+    <string name="sample_pw_chk">Confirm password</string>
+    <string name="join_title">JOIN</string>
+    <string name="login_title">LOGIN</string>
+    <string name="join">가입</string>
+    <string name="login">로그인</string>
+
+    <!-- Main -->
+    <string name="signin_guide">가입하고 더 큰 혜택을 누리세요!\n더 많은 리워드가 있습니다.</string>
+    <string name="check_in">체크인</string>
+    <string name="checked_in">체크인 완료</string>
+    <string name="go_to_items">구경해보자</string>
+    <string name="map">Map</string>
+    <string name="shop">브랜드</string>
+    <string name="item">아이템</string>
+    <string name="recommend_items">이건 어때요?</string>
+    <string name="scan">스캔</string>
+    <string name="scanned">스캔 완료</string>
+    <string name="invitation">친구초대</string>
+    <string name="invited">초대가입</string>
+    <string name="redemption">사용</string>
+    <string name="move_to_app">앱으로 이동</string>
+    <string name="search_rewards">달 찾기</string>
+    <string name="checkin_rewards">매장방문\n리워드</string>
+    <string name="scan_rewards">상품스캔\n리워드</string>
+
+    <!-- My Page -->
+    <string name="tou">이용약관</string>
+    <string name="pp">개인정보방침</string>
+    <string name="get_ver_code">인증번호 받기</string>
+    <string name="skip">건너뛰기 >></string>
+    <string name="reget_ver_code">인증번호 재발급</string>
+    <string name="send_ver_code">인증번호 확인</string>
+    <string name="my_profile">나의 프로필</string>
+    <string name="edit_profile">프로필 수정</string>
+    <string name="my_current_dals">내가 모은 달</string>
+    <string name="notice">공지사항</string>
+    <string name="help">도움말</string>
+    <string name="push_setting">푸시설정</string>
+    <string name="user_information">내 정보</string>
+    <string name="version">버전정보</string>
+    <string name="logout">로그아웃</string>
+    <string name="history">리워드내역</string>
+    <string name="currency_exchange">환전</string>
+    <string name="settings">설정</string>
+    <string name="dal">달</string>
+    <string name="add_redeem">신청하기</string>
+    <string name="add_redeem_guide">모은 달과 바꾸고 싶은 것을 말해주세요</string>
+    <string name="newest_version">최신 버전</string>
+    <string name="current_version">현재 버전</string>
+    <string name="no_phone">전화번호 없음</string>
+
+    <!-- Messages -->
+    <string name="message_join">가입을 진행하는 것은 아래 이용약관과 개인정보방침에 동의하는 것을 의미합니다</string>
+    <string name="message_phone_number_why">리워드를 모으고 사용하기 위해서 전화번호를 인증해야 합니다</string>
+    <string name="message_edit_profile_why">당신에 대해 조금만 알려주세요\n당신에게 적절한 제품들을 찾아드리고 싶습니다</string>
+    <string name="message_bluetooth_why">달샵은 체크인 리워드 지급을 위해서\nBluetooth 4.0 Low Energy를 이용합니다\n체크인 리워드를 받기 위해서는 블루투스만 켜두시면 됩니다!</string>
+    <string name="message_bluetooth_status">현재 블루투스 상태</string>
+    <string name="message_bluetooth_no_worry">걱정마세요, Bluetooth 4.0 은 배터리를 거의 소모하지 않습니다!</string>
+    <string name="message_not_enough_reward">달이 부족합니다..</string>
+    <string name="message_guest_redeem_fail">먼저 로그인/가입 하셔야 달스토어를 이용할 수 있습니다</string>
+    <string name="message_redeem_fail_no_phone">전화번호를 인증하셔야 달스토어를 이용할 수 있습니다</string>
+    <string name="message_delayed_redeem">구매하신 물건은 1 근무일 후에 발송됩니다. 실시간 발송이 빠른 시일 안에 이루어지도록 최선을 다 하겠습니다.</string>
+    <string name="message_scan_reward_fail">바코드가 맞지 않거나, 매장 근처에 있지 않을 수 있습니다..</string>
+    <string name="message_main_loading_items">당신이 좋아할만한 것들을 찾고 있습니다.. </string>
+    <string name="message_main_loading_shops">브랜드를 찾고 있습니다.. </string>
+    <string name="message_not_ready_yet">아직 준비중인 서비스입니다</string>
+    <string name="message_like_it_guide">좋아요! \'나의 좋아요\' 메뉴에 저장되었어요.\n매장이 근처에 있을 때 알려드릴게요.</string>
+    <string name="message_invitation">스마트한 오프라인 쇼핑도우미\n당신 주변의 매장별 이벤트, 세일상품 쇼핑정보를 한눈에\n달샵으로 초대합니다!</string>
+    <string name="message_reco_input">누군가의 초대를 받고 오셨나요? 그렇다면 추천인의 달샵 가입 이메일 주소를 알려주세요. 리워드가 지급됩니다!</string>
+    <string name="message_notify_invalid_user">잘못된 이메일 혹은 비밀번호입니다.</string>
+    <string name="message_notify_feedback_sent">금방 답변해드릴게요!</string>
+    <string name="message_notify_kakaotalk_not_installed">친구에게 공유하려면 카카오톡이 필요합니다.</string>
+    <string name="message_notify_network_disconnected">네트워크에 연결하고 다시 시작해주세요</string>
+    <string name="message_notify_bluetooth_disconnected">블루투스를 켜두시면 더 멋진 쇼핑 경험을 하실 수 있습니다!</string>
+    <string name="message_notify_bluetooth_le" formatted="false">현재 안드로이드 버전(%s)에서는 자동 체크인을 지원하지 않습니다.\n4.3(JellyBean)이나 그 이상으로 업그레이드하고 더 멋진 쇼핑 경험을 할 수 있습니다!</string>
+    <string name="message_notify_shop" formatted="false">%s 근처에 계시군요!\n당신이 좋아하는 것이 여기에 있습니다!</string>
+    <string name="message_notify_shop_rewardable" formatted="false">%s 근처에 계시군요!\n%s달의 리워드가 당신을 기다립니다!</string>
+    <string name="message_notify_rewarded_shop" formatted="false">%s 체크인 리워드!\n%s달이 적립되었습니다.</string>
+    <string name="message_notify_rewarded_item" formatted="false">%s 스캔 리워드!\n%s달이 적립되었습니다.</string>
+    <string name="message_notify_rewarded_invited" formatted="false">초대 리워드!\n%s달이 적립되었습니다.</string>
+    <string name="message_redeemed" formatted="false">%s 구매요청이 전송되었습니다. %s 으로 발송 예정입니다.</string>
+
+    <!-- Errors -->
+    <string name="error_duplicate_phone_number">이미 등록된 전화번호입니다</string>
+    <string name="error_ble_not_supported">달샵은 체크인 리워드 지급을 위해 Bluetooth 4.0을 사용합니다\n그러나 이 기기의 OS 버전은 Bluetooth 4.0을 지원하지 않습니다\n죄송합니다, 이 OS 버전에선 체크인 리워드를 받을 수 없습니다</string>
+    <string name="error_need_4.3">Bluetooth 4.0은 안드로이드OS 4.3 버전에서부터 지원합니다</string>
+    <string name="error_but_scan_possible"></string>
+    <string name="error_redeem_fail">전송에 실패했습니다. 잠시 후에 다시 시도해주세요. 죄송합니다.</string>
+
+    <!-- Guides -->
+    <string name="guide_no_contents">컨텐츠 준비중입니다..</string>
+    <string name="guide_no_likes">아직 맘에 드는 것이 없나요?\n멋진 물건을 찾아서 좋아요를 눌러보세요!</string>
+    <string name="how_to_get_dals">달 모으는 법</string>
+    <string name="guide_checkin_shop">1. 달이 있는 매장을 찾아요</string>
+    <string name="guide_checkin_shop_detail">달이 있는 매장들을\n지도 위에서도 볼 수 있어요.</string>
+    <string name="guide_checkin_ble">2. 블루투스를 켜주세요!</string>
+    <string name="guide_checkin_ble_detail">매장에 들어가기 전에 블루투스를 켜주세요!\n블루투스를 켜두지 않으면 리워드를 받을 수 없어요 ㅠㅠ.</string>
+    <string name="guide_checkin_visit">3. 매장에 들어가세요</string>
+    <string name="guide_checkin_visit_detail">그저 매장에 걸어들어가기만 하면, 짜잔!\n자동으로 달 적립!\n달샵과 함께 새로운 쇼핑 습관을 즐겨요!</string>
+    <string name="guide_invitation">초대 받은 유저가 가입시 회원님의 달샵 가입 이메일 주소를 인증하면 리워드를 받게 됩니다!</string>
+
+    <!-- Rest -->
+
+</resources>

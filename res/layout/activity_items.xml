@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemsActivity" >
+
+    <ListView
+        android:id="@+id/list_items_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green_blue"
+        android:divider="@color/transparent"
+        android:dividerHeight="0.5dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar_items_loading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true" />
+
+    <TextView
+        android:id="@+id/text_items_guide_no_contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/guide_no_contents"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text_items_guide_no_likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/guide_no_likes"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</FrameLayout>

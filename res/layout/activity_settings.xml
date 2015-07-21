@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    tools:context=".SettingsActivity" >
+
+    <TextView
+        style="@style/SimpleSettingsButton"
+        android:clickable="true"
+        android:onClick="goToNotice"
+        android:text="@string/notice"
+        android:textSize="20sp" />
+
+    <TextView
+        style="@style/SimpleSettingsButton"
+        android:clickable="true"
+        android:onClick="goToVersion"
+        android:text="@string/version"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_settings_logout"
+        style="@style/SimpleSettingsButton"
+        android:clickable="true"
+        android:onClick="logout"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</LinearLayout>

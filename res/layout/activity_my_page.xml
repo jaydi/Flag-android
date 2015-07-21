@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyPageActivity" >
+
+    <TextView
+        android:id="@+id/text_my_page_email"
+        style="@style/SimpleSettingsButton"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_my_page_phone"
+        style="@style/SimpleSettingsButton"
+        android:clickable="true"
+        android:onClick="goToPhoneInput"
+        android:textSize="20sp" />
+
+    <TextView
+        style="@style/SimpleSettingsButton"
+        android:clickable="true"
+        android:onClick="logout"
+        android:text="@string/logout"
+        android:textSize="20sp" />
+    
+    <TextView
+        style="@style/SimpleSettingsButton"
+        android:clickable="true"
+        android:onClick="byebye"
+        android:text="@string/byebye"
+        android:textSize="20sp" />
+
+</LinearLayout>

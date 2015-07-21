@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity" >
+
+    <fragment
+        android:id="@+id/fragment_map_map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:cameraTargetLat="37.466914"
+        map:cameraTargetLng="126.948566"
+        map:cameraZoom="12"
+        map:mapType="normal"
+        map:uiCompass="false"
+        map:uiRotateGestures="false"
+        map:uiTiltGestures="false"
+        map:uiZoomControls="false"
+        map:uiZoomGestures="true" />
+
+    <!--
+         <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_black_button"
+        android:onClick="goToFlagList"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_list" />
+    -->
+
+
+    <LinearLayout
+        android:id="@+id/linear_map_flaginfo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/selector_white"
+        android:onClick="goToShop"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone" >
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp" >
+
+            <ImageView
+                android:id="@+id/image_map_flag_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerInside" />
+
+            <ProgressBar
+                android:id="@+id/progressbar_map_flag_logo"
+                style="@android:style/Widget.ProgressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text_map_flag_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/linear_map_flag_reward_box"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_checkin" />
+
+            <TextView
+                android:id="@+id/text_map_flag_reward"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:drawableLeft="@drawable/ic_dal_small" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/text_map_flag_sale"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="bottom|center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_sale"
+            android:text="@string/sale"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</FrameLayout>

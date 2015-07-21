@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">DalShop</string>
+
+    <!-- Google -->
+    <string name="google_api_key">AIzaSyCQcUkrRmSvIpEDrswojd5NsGFgCGZV52o</string>
+
+    <!-- Kakao -->
+    <string name="kakao_app_key">4a089eb067de8688d761d6ed48cfd807</string>
+    <string name="kakao_scheme">kakao4a089eb067de8688d761d6ed48cfd807</string>
+    <string name="kakaolink_host">kakaolink</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_rewards">DalStore</string>
+    <string name="action_map">Map</string>
+    <string name="menu_my_profile">My Profile</string>
+    <string name="menu_my_likes">My Likes</string>
+    <string name="menu_my_messages">Messages</string>
+    <string name="menu_invite_friends">Invite Friends</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_dalstore">Dal Store</string>
+    <string name="menu_history">History</string>
+    <string name="menu_my_dal">My Dals</string>
+
+    <!-- Activity Title -->
+    <string name="title_activity_loading">@string/app_name</string>
+    <string name="title_activity_main"></string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_map_reward">CheckIn Rewards</string>
+    <string name="title_activity_flag_list">Flag List</string>
+    <string name="title_activity_shop"></string>
+    <string name="title_activity_shops"></string>
+    <string name="title_activity_items"></string>
+    <string name="title_activity_items_reward">Scan Rewards</string>
+    <string name="title_activity_item_desc"></string>
+    <string name="title_activity_login">Sign In</string>
+    <string name="title_activity_join">Sign Up</string>
+    <string name="title_activity_phone_input">Input Phone Number</string>
+    <string name="title_activity_verification_input">Input Verification Code</string>
+    <string name="title_activity_reco_input">Recomemndation</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_bguide">BGuideActivity</string>
+    <string name="title_activity_my_page">My Profile</string>
+    <string name="title_activity_reward">DalStore</string>
+    <string name="title_activity_reward_history">Reward History</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_version">Version</string>
+    <string name="title_activity_notice">Notice</string>
+    <string name="title_activity_popup">Alert</string>
+    <string name="title_activity_image">Image</string>
+    <string name="title_activity_simple_text"></string>
+
+    <!-- Common -->
+    <string name="question_mark">\?</string>
+    <string name="sex">Sex</string>
+    <string name="age">Age</string>
+    <string name="job">Job</string>
+    <string name="birth_year">Birth Year</string>
+    <string name="action_ask">Ask</string>
+    <string name="ask_dalshop">Ask Dalshop</string>
+    <string name="dal_shop">DAL SHOP</string>
+    <string name="empty"></string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="next">Next >></string>
+    <string name="confirm">Confirm</string>
+    <string name="send">Send</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="buy">BUY</string>
+    <string name="sale">SALE</string>
+    <string name="like_it">Like it</string>
+    <string name="rewarded">REWARDED</string>
+    <string name="rewardedFail">FAIL!</string>
+    <string name="please_wait">please wait..</string>
+    <string name="where_is_it">Nearby\nStore</string>
+    <string name="feedback_hint">Just feel free to ask anything!</string>
+    <string name="redeem_feedback">Request New</string>
+    <string name="redeem_feedback_hint">Tell us what you want to get with your dals!</string>
+    <string name="network_disconnected">Network Disconnected</string>
+    <string name="bluetooth_disconnected">Bluetooth Disconnected</string>
+    <string name="bluetooth_le_not_available">Bluetooth LE not available</string>
+
+    <!-- Starting -->
+    <string name="sample_email">Email</string>
+    <string name="sample_pw">Password</string>
+    <string name="sample_pw_chk">Confirm password</string>
+    <string name="join_title">SIGN UP</string>
+    <string name="login_title">SIGN IN</string>
+    <string name="join">SIGN UP</string>
+    <string name="login">SIGN IN</string>
+
+    <!-- Main -->
+    <string name="signin_guide">Sign-In to get more pleasure!\nmore dals and rewards</string>
+    <string name="check_in">Check-In</string>
+    <string name="checked_in">Checked-In</string>
+    <string name="go_to_items">What\'s in here?</string>
+    <string name="map">Map</string>
+    <string name="shop">Shop</string>
+    <string name="item">Item</string>
+    <string name="recommend_items">How about these?</string>
+    <string name="scan">Scan</string>
+    <string name="scanned">Scanned</string>
+    <string name="invitation">Invitation</string>
+    <string name="invited">Invited</string>
+    <string name="redemption">Redemption</string>
+    <string name="move_to_app">Move to App</string>
+    <string name="search_rewards">Search\nDals</string>
+    <string name="checkin_rewards">CheckIn\nRewards</string>
+    <string name="scan_rewards">Scan\nRewards</string>
+
+    <!-- My Page -->
+    <string name="tou">Terms of Use</string>
+    <string name="pp">Privacy Policy</string>
+    <string name="get_ver_code">Get Verification Code</string>
+    <string name="skip_phone_input">Skip >></string>
+    <string name="reget_ver_code">Re-send Verification Code</string>
+    <string name="send_ver_code">Verify Code</string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="my_current_dals">My current Dals</string>
+    <string name="notice">notice</string>
+    <string name="help">help</string>
+    <string name="push_setting">push</string>
+    <string name="user_information">user info</string>
+    <string name="version">version</string>
+    <string name="logout">logout</string>
+    <string name="byebye">탈퇴</string>
+    <string name="history">history</string>
+    <string name="currency_exchange">Currency Exchange</string>
+    <string name="settings">settings</string>
+    <string name="dal">dal</string>
+    <string name="add_redeem">Request New</string>
+    <string name="add_redeem_guide">Tell us what you want to get with your dals</string>
+    <string name="newest_version">newest version</string>
+    <string name="current_version">current version</string>
+    <string name="no_phone">No phone number verified</string>
+
+    <!-- Messages -->
+    <string name="message_join">By signing up I agree to Terms of Use and Privacy Policy provided below.</string>
+    <string name="message_phone_number_why">We need to verify your phone number which will be used when you get redemptions</string>
+    <string name="message_bluetooth_why">We use Blutooth 4.0 Low Energy to give check-in rewards\nYou just need to turn on Bluetooth to get rewards!</string>
+    <string name="message_bluetooth_status">Your Bluetooth Status</string>
+    <string name="message_bluetooth_no_worry">Don\'t worry! BLE uses super small amount of battery</string>
+    <string name="message_edit_profile_why">We\'d like to know you\nso we can recommend proper goods for you</string>
+    <string name="message_guest_redeem_fail">Please sign in/up to get redemtions</string>
+    <string name="message_redeem_fail_no_phone">Please provide your phone number to get redemtions</string>
+    <string name="message_not_enough_reward">Not enough dals..</string>
+    <string name="message_delayed_redeem">Redemption will be sent after 1 work day. Will do our best to make it real time service soon</string>
+    <string name="message_scan_reward_fail">Maybe the scanned code is wrong or you are not near the store..</string>
+    <string name="message_main_loading_items">Looking for great stuffs for you.. </string>
+    <string name="message_main_loading_shops">Looking for great brandings.. </string>
+    <string name="message_not_ready_yet">this service is under construction. will be open soon.</string>
+    <string name="message_like_it_guide">Like it! It is saved in \'My Likes\' menu.\nWe will notice you when you are near the shop.</string>
+    <string name="message_invitation">invitation to Dalshop!</string>
+    <string name="message_reco_input">Should you have someone invited you to this app, let us know dalshop sign up email of the person.</string>
+    <string name="message_notify_invalid_user">Invalid email-address/password</string>
+    <string name="message_notify_feedback_sent">Your message has been sent! We\'ll get back to you soon.</string>
+    <string name="message_notify_kakaotalk_not_installed">Need KakaoTalk to share contents.</string>
+    <string name="message_notify_network_disconnected">Connect to network and restart this app</string>
+    <string name="message_notify_bluetooth_disconnected">Turn on Bluetooth and enhance your experience!</string>
+    <string name="message_notify_bluetooth_le" formatted="false">Current Android version(%s) does not support auto check-in.\nUpgrade to 4.3(JellyBean) or over and enhance your experience!</string>
+    <string name="message_notify_shop" formatted="false">You are near %s!\nfound some things you would like!</string>
+    <string name="message_notify_shop_rewardable" formatted="false">You are near %s!\n%sdals of reward is waiting for you!</string>
+    <string name="message_notify_rewarded_shop" formatted="false">%s Check-In!\nrewarded with %s!</string>
+    <string name="message_notify_rewarded_item" formatted="false">%s Scan!\nrewarded with %s!</string>
+    <string name="message_notify_rewarded_invited" formatted="false">Invitation Reward!\nrewarded with %s!</string>
+    <string name="message_redeemed" formatted="false">%s requested to %s</string>
+
+    <!-- Errors -->
+    <string name="error_duplicate_phone_number">The number you provided is already in use</string>
+    <string name="error_ble_not_supported">Sorry, your device doesn\'t support Bluetooth 4.0 so you can\'t get check-in rewards..\nWe use Bluetooth 4.0 to give check-in rewards</string>
+    <string name="error_need_4.3">Bluetooth 4.0 is supported over AndroidOS 4.3</string>
+    <string name="error_but_scan_possible"></string>
+    <string name="error_redeem_fail">Sorry, redemption failed.. Try again later.</string>
+
+    <!-- Guides -->
+    <string name="guide_no_contents">No contents yet.. We will be ready soon!</string>
+    <string name="guide_no_likes">No items you like? Well, you can find some awesome goods in this app!</string>
+    <string name="how_to_get_dals">How to get Dals</string>
+    <string name="guide_checkin_shop">1. Find a rewarding store nearby</string>
+    <string name="guide_checkin_shop_detail">You can also see them on the map.</string>
+    <string name="guide_checkin_ble">2. Turn on Bluetooth!</string>
+    <string name="guide_checkin_ble_detail">You have to turn on bluetooth before you get into the store! or we can\'t know if you are in the shop.</string>
+    <string name="guide_checkin_visit">3. Get into the store</string>
+    <string name="guide_checkin_visit_detail">Just walk into the store and Voilà! You will automatically get rewarded. Enjoy the new way of shopping with Dalshop!</string>
+    <string name="guide_invitation">You will get rewarded when the invited user tells us your email address in sign up procedure.</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_redeem_box"
+    android:focusable="true"
+    android:padding="1px" >
+
+    <LinearLayout
+        android:id="@+id/linear_adapted_redeem_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_transparent_light"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <ImageView
+            android:id="@+id/image_adapted_redeem_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/text_adapted_redeem_vendor"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:gravity="center"
+            android:textColor="@color/green_blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/text_adapted_redeem_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="@color/green_blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/text_adapted_redeem_price"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/green_blue"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>

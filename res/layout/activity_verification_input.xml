@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_blue"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.tankers.smile.activities.PhoneInsertActivity" >
+
+    <EditText
+        android:id="@+id/edit_verification_input_code"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/background_white_box"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_green_blue"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="verifyCode"
+        android:text="@string/send_ver_code"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/selector_green_blue"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="regetVerCode"
+            android:text="@string/reget_ver_code"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </FrameLayout>
+    -->
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sex">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>none</item>
+        <item>student</item>
+        <item>office worker</item>
+        <item>business person</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle">
+        <ignore path="res/layout/activity_login.xml" />
+        <ignore path="res/layout/activity_popup.xml" />
+        <ignore path="res/layout/toast_msg_layout.xml" />
+    </issue>
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="ExportedReceiver">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="ExportedService">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="LabelFor">
+        <ignore path="res/layout/activity_verification_input.xml" />
+    </issue>
+    <issue id="MissingPrefix" severity="ignore">
+        <ignore path="res/layout/activity_map.xml" />
+    </issue>
+    <issue id="NestedWeights" severity="ignore" />
+    <issue id="PxUsage" severity="ignore" />
+    <issue id="SmallSp">
+        <ignore path="res/layout/adapted_redeem_layout.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout/reward_flag_layout.xml" />
+    </issue>
+    <issue id="UseSparseArrays">
+        <ignore path="src/com/tankers/smile/activities/ShopsActivity.java" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/activity_info.xml" />
+        <ignore path="res/layout/activity_loading.xml" />
+        <ignore path="res/layout/activity_login.xml" />
+        <ignore path="res/layout/activity_my_page.xml" />
+        <ignore path="res/layout/activity_reward.xml" />
+        <ignore path="res/layout/activity_settings.xml" />
+        <ignore path="res/layout/adapted_flag_layout.xml" />
+        <ignore path="res/layout/adapted_item_header_item_desc.xml" />
+        <ignore path="res/layout/adapted_item_layout.xml" />
+        <ignore path="res/layout/adapted_menu_layout.xml" />
+        <ignore path="res/layout/adapted_redeem_layout.xml" />
+        <ignore path="res/layout/adapted_shop_layout.xml" />
+    </issue>
+</lint>

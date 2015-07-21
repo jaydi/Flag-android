@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_blue"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.tankers.smile.activities.BGuideActivity" >
+
+    <TextView
+        android:id="@+id/text_bguide_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/image_bguide_icon"
+        android:layout_width="240dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:onClick="turnOnBluetooth"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_dal" />
+
+    <TextView
+        android:id="@+id/text_bguide_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_bguide_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/selector_green_blue"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="goToMenu"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+</LinearLayout>
